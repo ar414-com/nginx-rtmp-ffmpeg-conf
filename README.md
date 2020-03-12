@@ -7,7 +7,7 @@
 >
 > ![ar414-nginx-rtmp](https://cdn.ar414.com/ar414-nginx-rtmp.png)
 
-# :whale:docker-nginx-rtmp-ffmpeg
+# :whale:[docker-nginx-rtmp-ffmpeg](https://hub.docker.com/repository/docker/ar414/nginx-rtmp-ffmpeg)
 基于[docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)进行配置部署，这篇文章的意义是让没接触过直播的人能够开箱即用。
 * Nginx 1.16.1（从源代码编译的稳定版本）
 * nginx-rtmp-module 1.2.1（从源代码编译）
