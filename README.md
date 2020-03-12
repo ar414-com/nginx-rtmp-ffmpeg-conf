@@ -67,7 +67,7 @@ ssl_certificate_key /opt/certs/example.com.key;
     ![ar414-rtmp](https://cdn.ar414.com/ar414-rtmp.png)
     * 有水印：需要分流到其他服务器上
     
-### 配置文件简解（分流、水印及水印位置）
+## :page_facing_up:配置文件简解（分流、水印及水印位置）
 > [完整配置文件](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
 * RTMP配置
 
@@ -142,7 +142,7 @@ application stream {
         | overlay_h  | 水印图片的高度 |
 
      
-### 结语
+## :octocat:结语
 * 如果觉得对你有帮助请给我一个[start](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf)
 
     
