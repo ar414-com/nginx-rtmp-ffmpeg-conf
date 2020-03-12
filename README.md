@@ -12,7 +12,7 @@
 * Nginx 1.16.1（从源代码编译的稳定版本）
 * nginx-rtmp-module 1.2.1（从源代码编译）
 * ffmpeg 4.2.1（从源代码编译）
-* 已配置好的[nginx.conf](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf)
+* 已配置好的[nginx.conf](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
     * 只支持1920*1080（如需支持其他分辨率可参考[nginx.conf](https://github.com/alfg/docker-nginx-rtmp/blob/master/nginx.conf)）
     * 实现两路分流
         * 本机
@@ -20,7 +20,7 @@
     * 实现直播水印效果
         * 水印图片存放位置（容器内）：/opt/images/logo.png
 
-## 部署运行
+## :computer:部署运行
 ### 服务器
 * 安装docker(Centos7,其他系统请发挥你的搜索功能)
 ```bash
@@ -68,7 +68,7 @@ ssl_certificate_key /opt/certs/example.com.key;
     * 有水印：需要分流到其他服务器上
     
 ### 配置文件简解（分流、水印及水印位置）
-> [完整配置文件](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf)
+> [完整配置文件](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
 * RTMP配置
 
 ```bash
@@ -142,9 +142,8 @@ application stream {
         | overlay_h  | 水印图片的高度 |
 
      
-    
-    
-
+### 结语
+* 如果觉得对你有帮助请给我一个[start](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf)
 
     
 
