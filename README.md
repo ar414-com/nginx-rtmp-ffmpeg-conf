@@ -8,7 +8,7 @@
 >
 > 简单的拓扑示意图：
 >
-> ![ar414-nginx-rtmp(https://cdn.ar414.com/ar414-nginx-rtmp.png)
+> ![ar414-nginx-rtmp](https://cdn.ar414.com/ar414-nginx-rtmp.png)
 
 # :whale:[docker-nginx-rtmp-ffmpeg](https://hub.docker.com/repository/docker/ar414/nginx-rtmp-ffmpeg)
 基于[docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)进行配置部署，这篇文章的意义是实现直播分流及直播画面水印.
@@ -58,7 +58,8 @@ ssl_certificate_key /opt/certs/example.com.key;
 ![obs-config](https://cdn.ar414.com/obs-config.png)
 
 ### 观看测试
-> HLS播放测试工具：http://player.alicdn.com/aliplayer/setting/setting.html（如果配置了证书则使用https）
+> HLS播放测试工具：http://player.alicdn.com/aliplayer/setting/setting.html （如果配置了证书则使用https）
+
 * HLS播放地址
     * 有水印：http://\<server ip>:8080/hls/ar414_wm.m3u8
     ![ar414-hls-wm](https://cdn.ar414.com/ar414-hls-wm.png)
@@ -72,8 +73,8 @@ ssl_certificate_key /opt/certs/example.com.key;
     
 ## :page_facing_up:配置文件简解（分流、水印及水印位置）
 > [完整配置文件](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
-* RTMP配置
 
+* RTMP配置
 ```bash
 rtmp {
     server {
@@ -147,11 +148,3 @@ application stream {
      
 ## :octocat:结语
 * 如果觉得对你有帮助请给我一个[start](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf)
-
-    
-
-
-
-
-
-
