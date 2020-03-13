@@ -65,7 +65,9 @@ ssl_certificate_key /opt/certs/example.com.key;
     ![ar414-hls-wm](https://cdn.ar414.com/ar414-hls-wm.png)
     * 无水印：http://\<server ip>:8080/hls/ar414.m3u8
     ![ar414-hls](https://cdn.ar414.com/ar414-hls.png)
+    
 > RTMP测试工具：[PotPlayer](https://daumpotplayer.com/download/)
+
 * RTMP播放地址
     * 无水印：rtmp://\<server ip>:1935/stream/ar414
     ![ar414-rtmp](https://cdn.ar414.com/ar414-rtmp.png)
