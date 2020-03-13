@@ -1,14 +1,17 @@
 ### :two_men_holding_hands:前言
 > 最近帮朋友的公司部署了一套分流+水印的直播系统
 >
+> 顺手打包成docker镜像，方便大家需要用到的时候开箱即用，不需要百度一些零碎的文章
+> 也可做简单的直播服务，只需调整配置文件便可达到你的需求.
+>
 > 需求：将直播流分流到两个云厂商的直播云，一个有水印，一个无水印。使用hls播放
 >
 > 简单的拓扑示意图：
 >
-> ![ar414-nginx-rtmp](https://cdn.ar414.com/ar414-nginx-rtmp.png)
+> ![ar414-nginx-rtmp(https://cdn.ar414.com/ar414-nginx-rtmp.png)
 
 # :whale:[docker-nginx-rtmp-ffmpeg](https://hub.docker.com/repository/docker/ar414/nginx-rtmp-ffmpeg)
-基于[docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)进行配置部署，这篇文章的意义是让没接触过直播的人能够开箱即用。
+基于[docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)进行配置部署，这篇文章的意义是实现直播分流及直播画面水印.
 * Nginx 1.16.1（从源代码编译的稳定版本）
 * nginx-rtmp-module 1.2.1（从源代码编译）
 * ffmpeg 4.2.1（从源代码编译）
