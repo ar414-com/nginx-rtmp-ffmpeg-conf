@@ -6,9 +6,13 @@
 >
 > 需求：将直播流分流到两个云厂商的直播云，一个有水印，一个无水印。使用hls播放
 >
-> 简单的拓扑示意图：
+> 朋友需求的拓扑示意图：
 >
 > ![ar414-nginx-rtmp](https://cdn.ar414.com/ar414-nginx-rtmp.png)
+> 
+> 当前拓扑示意图（阿里云和腾讯云不方便放出推流和拉流地址，有兴趣的同学可以去申请玩一下）
+>
+> ![ar414-nginx-service](https://cdn.ar414.com/nginx-live-service.png)
 
 # :whale:[docker-nginx-rtmp-ffmpeg](https://hub.docker.com/repository/docker/ar414/nginx-rtmp-ffmpeg)
 基于[docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)进行配置部署，这篇文章的意义是实现直播分流及直播画面水印.
