@@ -14,7 +14,7 @@ Based on the configuration and deployment of [docker-nginx-rtmp](https://github.
         * Watermark image storage location (in the container)：/opt/images/logo.png
 
 ## :computer:Deploy and run
-### 服务器
+### Server
 * Install docker (Centos7, other systems please use your search function)
 ```bash
 $ yum -y install docker #install docker
@@ -46,7 +46,7 @@ ssl_certificate_key /opt/certs/example.com.key;
 * Stream Key：ar414
 ![obs-config](https://cdn.ar414.com/obs-config.png)
 
-### 观看测试
+### Watch test
 > HLS playback test tool：http://player.alicdn.com/aliplayer/setting/setting.html （If a certificate is configured, use https）
 
 * HLS playback address
@@ -63,7 +63,7 @@ ssl_certificate_key /opt/certs/example.com.key;
     * With watermark：Need to be diverted to other servers
     
 ## :page_facing_up:Brief explanation of configuration file (diversion, watermark and watermark position)
-> [完整配置文件](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
+> [Full configuration file](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
 
 * RTMP configuration
 ```bash
